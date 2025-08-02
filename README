@@ -1,0 +1,15 @@
+# ML Engineering Portfolio
+
+A modern, responsive portfolio website showcasing machine learning projects and skills. Built with vanilla HTML, CSS, and JavaScript featuring animated backgrounds, smooth transitions, and a futuristic design aesthetic.
+
+## Project Structure
+
+```
+portfolio/
+├── index.html          # Main HTML structure
+├── styles.css          # All CSS styles and animations
+├── script.js           # JavaScript functionality
+├── your-photo.jpg      # Profile image 
+├── your-resume.pdf     # Resume file
+└── README.md           # This file
+```
