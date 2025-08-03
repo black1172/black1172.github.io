@@ -252,7 +252,7 @@ nav {
 
 .hero-subtitle {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    font-size: clamp(0.8rem, 2.4vw, 1.1rem);
     color: var(--text-secondary);
     margin-bottom: 1rem;
     font-weight: 500;
