@@ -214,7 +214,7 @@ nav {
     font-family: 'Orbitron', monospace;
     font-size: clamp(1.5rem, 4vw, 2.5rem);
     font-weight: 400;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     color: var(--text-primary);
     position: relative;
     overflow: hidden;
