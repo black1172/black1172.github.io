@@ -749,6 +749,38 @@ nav {
     animation: drift-particles 35s linear infinite reverse;
 }
 
+/* Subtle little galaxies */
+        .floating-elements {
+            background-image:
+                /* Small spiral galaxies */
+                radial-gradient(circle at 20% 30%, 
+                    transparent 8px, 
+                    rgba(0, 255, 136, 0.1) 9px, 
+                    rgba(0, 255, 136, 0.05) 12px, 
+                    transparent 15px),
+                radial-gradient(circle at 75% 20%, 
+                    transparent 6px, 
+                    rgba(255, 0, 128, 0.08) 7px, 
+                    rgba(255, 0, 128, 0.03) 10px, 
+                    transparent 12px),
+                radial-gradient(circle at 60% 70%, 
+                    transparent 10px, 
+                    rgba(0, 184, 255, 0.06) 11px, 
+                    rgba(0, 184, 255, 0.02) 15px, 
+                    transparent 18px),
+                radial-gradient(circle at 15% 80%, 
+                    transparent 7px, 
+                    rgba(138, 43, 226, 0.05) 8px, 
+                    rgba(138, 43, 226, 0.02) 12px, 
+                    transparent 14px),
+                radial-gradient(circle at 85% 60%, 
+                    transparent 5px, 
+                    rgba(0, 255, 136, 0.07) 6px, 
+                    rgba(0, 255, 136, 0.03) 9px, 
+                    transparent 11px);
+            animation: galaxy-drift 60s ease-in-out infinite;
+        }
+
 @keyframes enhanced-float {
     0%, 100% { 
         transform: translateY(0px) rotate(0deg);
