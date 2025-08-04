@@ -906,6 +906,10 @@ nav {
     .nav-links {
         display: none;
     }
+
+    .hero {
+                padding-top: 250px; /* Much more padding on mobile */
+    }
     
     .projects-grid {
         grid-template-columns: 1fr;
