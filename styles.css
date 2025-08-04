@@ -210,7 +210,7 @@ nav {
 }
 
 .hero-title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Orbitron', monospace;
     font-size: clamp(2.6rem, 7vw, 5rem);
     font-weight: 400;
     margin-bottom: 1.5rem;
