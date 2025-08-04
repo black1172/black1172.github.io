@@ -211,13 +211,14 @@ nav {
 
 .hero-title {
     font-family: 'Orbitron', monospace;
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(2.6rem, 7vw, 5rem);
     font-weight: 400;
     margin-bottom: 1.5rem;
     color: var(--text-primary);
     position: relative;
     overflow: hidden;
     animation: slideUp 1s ease 0.2s both;
+    padding-top: 200px;
 }
 
 .hero-title.typing {
