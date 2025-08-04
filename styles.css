@@ -749,50 +749,6 @@ nav {
     animation: drift-particles 35s linear infinite reverse;
 }
 
-/* Subtle little galaxies */
-        .floating-elements {
-            background-image:
-                /* Spiral galaxy arms - more visible */
-                conic-gradient(from 45deg at 20% 30%, 
-                    transparent 0deg, 
-                    rgba(0, 255, 136, 0.15) 60deg,
-                    transparent 120deg,
-                    rgba(0, 255, 136, 0.1) 180deg,
-                    transparent 240deg,
-                    rgba(0, 255, 136, 0.15) 300deg,
-                    transparent 360deg),
-                conic-gradient(from 0deg at 75% 20%, 
-                    transparent 0deg, 
-                    rgba(255, 0, 128, 0.12) 90deg,
-                    transparent 180deg,
-                    rgba(255, 0, 128, 0.08) 270deg,
-                    transparent 360deg),
-                conic-gradient(from 90deg at 60% 70%, 
-                    transparent 0deg, 
-                    rgba(0, 184, 255, 0.1) 45deg,
-                    transparent 90deg,
-                    rgba(0, 184, 255, 0.15) 135deg,
-                    transparent 180deg,
-                    rgba(0, 184, 255, 0.08) 225deg,
-                    transparent 270deg,
-                    rgba(0, 184, 255, 0.12) 315deg,
-                    transparent 360deg),
-                conic-gradient(from 180deg at 15% 80%, 
-                    transparent 0deg, 
-                    rgba(138, 43, 226, 0.1) 120deg,
-                    transparent 240deg,
-                    rgba(138, 43, 226, 0.08) 360deg),
-                conic-gradient(from 270deg at 85% 60%, 
-                    transparent 0deg, 
-                    rgba(0, 255, 136, 0.1) 90deg,
-                    transparent 180deg,
-                    rgba(0, 255, 136, 0.12) 270deg,
-                    transparent 360deg);
-            background-size: 80px 80px, 60px 60px, 100px 100px, 70px 70px, 50px 50px;
-            animation: galaxy-drift 60s ease-in-out infinite;
-        }
-
-
 @keyframes enhanced-float {
     0%, 100% { 
         transform: translateY(0px) rotate(0deg);
